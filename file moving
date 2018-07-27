@@ -1,0 +1,12 @@
+
+echo "file moving..."
+d:
+cd \home\www.usahanatour.com\XML
+copy \\222.122.70.166\d$\Home\xml.usahanatour.com\xml\B00500_Product.xml B00500_Product_BAK.xml 
+
+
+
+//move는 잘라내기랑 같음..원본자체를 
+echo "24. auction file moving..."
+move /Y ssg\SSG_MST.xml \\222.122.70.216\d$\home\memberXML\xmlFiles\memberWS
+
