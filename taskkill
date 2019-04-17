@@ -1,10 +1,12 @@
 
 
 echo "인터넷익스프롤러로 인해 서버가 다운되는것을 방지하기위해 임시로 실행"
-taskkill /IM iexplore.exe 
-taskkill /IM iexplore.exe 
-taskkill /IM iexplore.exe 
+echo  taskkill /F /IM iexplore.exe /T
 
+taskkill /F /IM iexplore.exe
 
-서버에 살아 있는  iexplore.exe 3개를 kill하는 예제. 갯수 만큼..kill해주면 됨. 
+echo /F  프로세스를 강제로 종료하도록 지정합니다.
+echo /IM  종료할 프로세스 이름.
+echo /T  지정된 프로세스와 그 프로세스로부터 시작된 모든 자식 프로세스를 종료함.
+
 
